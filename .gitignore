@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local research corpora and execution artifacts
+/stage1/data/
+/stage1/inspection/
+/stage1/qa/
+*.zip
+*_checkpoint.json
+.env
