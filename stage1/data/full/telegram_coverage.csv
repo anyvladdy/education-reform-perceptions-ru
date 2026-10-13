@@ -1,0 +1,43 @@
+﻿channel,query,next_url,pages,earliest,latest,without_text,parse_errors,status,stop_reason,examined
+minprosrf,колледж,,2,2026-09-11,2026-10-05,0,0,complete,end_of_results,22
+minprosrf,техникум,,2,2026-08-01,2026-10-02,0,0,complete,end_of_results,22
+minprosrf,СПО,,2,2026-08-20,2026-10-05,0,0,complete,end_of_results,22
+minprosrf,Профессионалитет,,2,2026-08-07,2026-10-02,0,0,complete,end_of_results,22
+minprosrf,высшее образование,,2,2026-08-25,2026-10-05,0,0,complete,end_of_results,22
+minprosrf,вуз,,1,2026-08-09,2026-09-30,0,0,complete,end_of_results,20
+minprosrf,университет,,2,2026-09-01,2026-10-06,0,0,complete,end_of_results,22
+minprosrf,абитуриент,,2,2026-05-26,2026-09-25,0,0,complete,end_of_results,22
+minprosrf,поступление,,2,2026-05-27,2026-09-28,0,0,complete,end_of_results,22
+minprosrf,приём,,2,2026-06-20,2026-09-25,0,0,complete,end_of_results,22
+minprosrf,ЕГЭ,,2,2026-07-07,2026-09-25,0,0,complete,end_of_results,22
+minprosrf,ОГЭ,,2,2025-08-26,2026-08-25,0,0,complete,end_of_results,22
+minprosrf,10 класс,,2,2026-07-22,2026-09-29,0,0,complete,end_of_results,22
+minprosrf,десятый класс,,1,2025-08-12,2025-08-20,0,0,complete,end_of_results,2
+minprosrf,рабочие профессии,,2,2026-04-24,2026-10-04,0,0,complete,end_of_results,22
+minprosrf,профориентация,,2,2026-06-08,2026-10-01,0,0,complete,end_of_results,22
+minprosrf,профессиональные пробы,,1,2022-06-16,2026-09-04,0,0,complete,end_of_results,19
+minprosrf,трудоустройство,,2,2026-03-16,2026-08-26,0,0,complete,end_of_results,22
+minprosrf,Молодые профессионалы,,2,2025-08-06,2026-10-02,0,0,complete,end_of_results,22
+minprosrf,WorldSkills,,1,2022-12-13,2024-01-10,0,0,complete,end_of_results,2
+minprosrf,EuroSkills,,1,,,0,0,complete,end_of_results,0
+minobrnaukiofficial,колледж,,2,2026-07-02,2026-10-01,0,0,complete,end_of_results,22
+minobrnaukiofficial,техникум,,2,2023-04-04,2026-06-21,0,0,complete,end_of_results,22
+minobrnaukiofficial,СПО,,1,2020-10-21,2026-08-21,0,0,complete,end_of_results,16
+minobrnaukiofficial,Профессионалитет,,2,2025-01-23,2026-09-15,0,0,complete,end_of_results,22
+minobrnaukiofficial,высшее образование,,2,2026-09-23,2026-10-06,0,0,complete,end_of_results,22
+minobrnaukiofficial,вуз,,2,2026-09-25,2026-10-06,0,0,complete,end_of_results,22
+minobrnaukiofficial,университет,,2,2026-10-01,2026-10-06,0,0,complete,end_of_results,22
+minobrnaukiofficial,абитуриент,,2,2026-07-30,2026-09-29,0,0,complete,end_of_results,22
+minobrnaukiofficial,поступление,,2,2026-06-28,2026-10-01,0,0,complete,end_of_results,22
+minobrnaukiofficial,приём,,2,2026-08-06,2026-10-05,0,0,complete,end_of_results,22
+minobrnaukiofficial,ЕГЭ,,2,2025-09-30,2026-09-01,0,0,complete,end_of_results,22
+minobrnaukiofficial,ОГЭ,,1,2026-06-27,2026-06-27,0,0,complete,end_of_results,1
+minobrnaukiofficial,10 класс,,2,2025-07-23,2026-09-23,0,0,complete,end_of_results,22
+minobrnaukiofficial,десятый класс,,1,2024-08-27,2026-09-23,0,0,complete,end_of_results,3
+minobrnaukiofficial,рабочие профессии,,2,2023-10-22,2026-09-25,0,0,complete,end_of_results,22
+minobrnaukiofficial,профориентация,,2,2024-09-02,2026-09-21,0,0,complete,end_of_results,22
+minobrnaukiofficial,профессиональные пробы,,1,2024-04-24,2024-04-24,0,0,complete,end_of_results,1
+minobrnaukiofficial,трудоустройство,,2,2026-03-13,2026-10-02,0,0,complete,end_of_results,22
+minobrnaukiofficial,Молодые профессионалы,,2,2025-08-18,2026-07-25,0,0,complete,end_of_results,22
+minobrnaukiofficial,WorldSkills,,1,2020-12-09,2020-12-09,0,0,complete,end_of_results,1
+minobrnaukiofficial,EuroSkills,,1,,,0,0,complete,end_of_results,0

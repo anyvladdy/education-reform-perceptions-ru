@@ -1,0 +1,3 @@
+﻿channel,url,subscribers_raw,subscribers_estimate,snapshot_date_msk,precision,reason,method
+minprosrf,https://t.me/s/minprosrf,73.3K,73300,2026-10-07,rounded_public_display,,Selenium; tgme_channel_info_counter where counter_type=subscribers
+minobrnaukiofficial,https://t.me/s/minobrnaukiofficial,59.6K,59600,2026-10-07,rounded_public_display,,Selenium; tgme_channel_info_counter where counter_type=subscribers
