@@ -1,0 +1,5 @@
+
+# Preserve the exact bytes of approved research snapshots.
+*.csv -text
+*.xlsx binary
+*.xls binary
