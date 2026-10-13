@@ -1,0 +1,5 @@
+﻿channel,query,next_url,pages,earliest,latest,without_text,parse_errors,status,stop_reason,examined
+minprosrf,WorldSkills,,1,2022-12-13,2024-01-10,0,0,complete,end_of_results,2
+minprosrf,EuroSkills,,1,,,0,0,complete,end_of_results,0
+minobrnaukiofficial,WorldSkills,,1,2020-12-09,2020-12-09,0,0,complete,end_of_results,1
+minobrnaukiofficial,EuroSkills,,1,,,0,0,complete,end_of_results,0

@@ -1,0 +1,22 @@
+[
+  {
+    "channel": "minprosrf",
+    "url": "https://t.me/s/minprosrf",
+    "subscribers_raw": "73.3K",
+    "subscribers_estimate": 73300,
+    "snapshot_date_msk": "2026-10-07",
+    "precision": "rounded_public_display",
+    "reason": null,
+    "method": "Selenium; tgme_channel_info_counter where counter_type=subscribers"
+  },
+  {
+    "channel": "minobrnaukiofficial",
+    "url": "https://t.me/s/minobrnaukiofficial",
+    "subscribers_raw": "59.6K",
+    "subscribers_estimate": 59600,
+    "snapshot_date_msk": "2026-10-07",
+    "precision": "rounded_public_display",
+    "reason": null,
+    "method": "Selenium; tgme_channel_info_counter where counter_type=subscribers"
+  }
+]
