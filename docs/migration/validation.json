@@ -1,0 +1,35 @@
+[
+  {
+    "legacy_reaction_rows": 349,
+    "note": "Legacy collector contains reactions; disabled in imported code, local corpus unchanged."
+  },
+  {
+    "source": "telegram",
+    "rows": 420,
+    "unique_ids": true,
+    "date_bounds": true,
+    "units": {
+      "post": 420
+    }
+  },
+  {
+    "source": "pikabu",
+    "rows": 340,
+    "unique_ids": true,
+    "date_bounds": true,
+    "units": {
+      "post": 174,
+      "comment": 166
+    }
+  },
+  {
+    "source": "tabiturient",
+    "rows": 334,
+    "unique_ids": true,
+    "date_bounds": true,
+    "units": {
+      "answer": 205,
+      "question": 129
+    }
+  }
+]
