@@ -1,0 +1,275 @@
+{
+  "publication_authorized_by": "Explicit user instruction to publish CSV/Excel and merge all branches into main",
+  "files": [
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/pilot/Пилот_источников_2018-2026.xlsx",
+      "bytes": 15901,
+      "sha256": "da7d7b1760163eee1795ee3ba7a194c8938eba54e34be1117a7ef00766c6237a",
+      "csv_rows": null
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/period_coverage.csv",
+      "bytes": 118,
+      "sha256": "37a2d4d16440f148c7dc975e7e1376f817712f075f556629c7b07bc51283b012",
+      "csv_rows": 3
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/pikabu.csv",
+      "bytes": 1032957,
+      "sha256": "e90ab37c28fd74a6c37c17c456d566ec7321037db85da78e52cab6c66ca114a8",
+      "csv_rows": 340
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/pikabu_coverage.csv",
+      "bytes": 1475,
+      "sha256": "7a4d21e52d7b55a639d58890b8c5d2b0281079050886384cab00a075889773a1",
+      "csv_rows": 8
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/pikabu_deep_probes.csv",
+      "bytes": 419,
+      "sha256": "7dcb94ad8fdee132d9bc797541a5bb86600c3fc5639d882bf44588fb69584759",
+      "csv_rows": 2
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/pikabu_discovery_audit.csv",
+      "bytes": 150655,
+      "sha256": "b7add91d1d0dead7eeaf2aaf3589dc79f414849d1f18ded84d1139bc52961ce4",
+      "csv_rows": 678
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/pikabu_post_audit.csv",
+      "bytes": 27745,
+      "sha256": "baf632cf5533fdf3bf45e98a36cd06f2a26e6508a15425b09d5ad42c82caa95a",
+      "csv_rows": 223
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/tabiturient_audit.csv",
+      "bytes": 30467,
+      "sha256": "def02f236a1bf8e9bb7321a84f199a368d79486b1a01527dcd3bd8821e8b0db7",
+      "csv_rows": 407
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/tabiturient_coverage.csv",
+      "bytes": 109,
+      "sha256": "71f070acd4718c0e683c9c47fd49ecc740eb83268b6831257bc9859aa07b42b5",
+      "csv_rows": 1
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/telegram_availability.csv",
+      "bytes": 529,
+      "sha256": "e4fa52db3443508742554492aaf84fa9592839e3bfa06ff7d7bf7aeaedfa4ee9",
+      "csv_rows": 2
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/telegram_channel_snapshot.csv",
+      "bytes": 415,
+      "sha256": "d58d946c6e574949b7ea88dd2996991ab95db6b6481f9325f6548177f7685704",
+      "csv_rows": 2
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/telegram_coverage.csv",
+      "bytes": 4439,
+      "sha256": "1b005537692b92c5ad956dc5749261cf32a53f2feb5ec2839c1be0d748e34e36",
+      "csv_rows": 20
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/protocol/telegram_windows.csv",
+      "bytes": 5292,
+      "sha256": "68a73f923aced1b2100080109e4e79a7247f640af1588da10c72e3443eac9ba4",
+      "csv_rows": 20
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/tabiturient.csv",
+      "bytes": 402220,
+      "sha256": "abdcc76296d5b2f4423c350475f1880b85c7968cde769c1f8e801da910bb3fad",
+      "csv_rows": 334
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/telegram.csv",
+      "bytes": 1109666,
+      "sha256": "742ab8a459aa613ee404c16275e6cd848aaf8c18304ca26b48e5ee48ce1bff42",
+      "csv_rows": 420
+    },
+    {
+      "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/База_трёх_источников.xlsx",
+      "bytes": 991977,
+      "sha256": "cda405429347c7ed2c49d5bb780d9231f8c9708af4f16c389b65b7aef1f18bf3",
+      "csv_rows": null
+    },
+    {
+      "path": "stage1/data/demo/tabiturient.csv",
+      "bytes": 19124,
+      "sha256": "b22f775a48485e0b3f18fb92350a8f4185d6d6152c4ff3e8ff69ddc8a4d731a0",
+      "csv_rows": 15
+    },
+    {
+      "path": "stage1/data/demo/tabiturient_coverage.csv",
+      "bytes": 105,
+      "sha256": "795b5dae3c272d8a29349ecf451034eb9422b10ed86a8a5cb10211720239747a",
+      "csv_rows": 1
+    },
+    {
+      "path": "stage1/data/full/telegram.csv",
+      "bytes": 1657112,
+      "sha256": "f215b536cc4a8565c79fadcc2b3f7b8a1530d3029e8e634b402417e7d2b46b25",
+      "csv_rows": 493
+    },
+    {
+      "path": "stage1/data/full/telegram_coverage.csv",
+      "bytes": 3979,
+      "sha256": "ad196d1f4b1720be7d1041071b8f1c239a75b5b1fbc21b9a3eab456e741de4d8",
+      "csv_rows": 42
+    },
+    {
+      "path": "stage1/data/sample/pikabu.csv",
+      "bytes": 1011888,
+      "sha256": "c631b1b67c54642af1ba819bd831867e48f30236e3cb284c55f78139741a164d",
+      "csv_rows": 340
+    },
+    {
+      "path": "stage1/data/sample/pikabu_coverage.csv",
+      "bytes": 1475,
+      "sha256": "7a4d21e52d7b55a639d58890b8c5d2b0281079050886384cab00a075889773a1",
+      "csv_rows": 8
+    },
+    {
+      "path": "stage1/data/sample/pikabu_deep_probes.csv",
+      "bytes": 419,
+      "sha256": "7dcb94ad8fdee132d9bc797541a5bb86600c3fc5639d882bf44588fb69584759",
+      "csv_rows": 2
+    },
+    {
+      "path": "stage1/data/sample/pikabu_discovery_audit.csv",
+      "bytes": 150655,
+      "sha256": "b7add91d1d0dead7eeaf2aaf3589dc79f414849d1f18ded84d1139bc52961ce4",
+      "csv_rows": 678
+    },
+    {
+      "path": "stage1/data/sample/pikabu_post_audit.csv",
+      "bytes": 27745,
+      "sha256": "baf632cf5533fdf3bf45e98a36cd06f2a26e6508a15425b09d5ad42c82caa95a",
+      "csv_rows": 223
+    },
+    {
+      "path": "stage1/data/sample/qa_pikabu.csv",
+      "bytes": 180922,
+      "sha256": "7179b6836c2f8fc9886d350d8090eed4f2cd09a74186318d8b129c8ec8e91f9d",
+      "csv_rows": 51
+    },
+    {
+      "path": "stage1/data/sample/tabiturient.csv",
+      "bytes": 388503,
+      "sha256": "722f9a852d129a673986af4286b6788409a26bdbb0fe90a46d50a54d5964f8e1",
+      "csv_rows": 334
+    },
+    {
+      "path": "stage1/data/sample/tabiturient_audit.csv",
+      "bytes": 30467,
+      "sha256": "def02f236a1bf8e9bb7321a84f199a368d79486b1a01527dcd3bd8821e8b0db7",
+      "csv_rows": 407
+    },
+    {
+      "path": "stage1/data/sample/tabiturient_coverage.csv",
+      "bytes": 109,
+      "sha256": "71f070acd4718c0e683c9c47fd49ecc740eb83268b6831257bc9859aa07b42b5",
+      "csv_rows": 1
+    },
+    {
+      "path": "stage1/data/sample/telegram.csv",
+      "bytes": 1069879,
+      "sha256": "a83b91731dd397d0efe41ea66d307bda8680130ade0f0ba95118baa5186c5b41",
+      "csv_rows": 420
+    },
+    {
+      "path": "stage1/data/sample/telegram_availability.csv",
+      "bytes": 529,
+      "sha256": "e4fa52db3443508742554492aaf84fa9592839e3bfa06ff7d7bf7aeaedfa4ee9",
+      "csv_rows": 2
+    },
+    {
+      "path": "stage1/data/sample/telegram_channel_snapshot.csv",
+      "bytes": 415,
+      "sha256": "d58d946c6e574949b7ea88dd2996991ab95db6b6481f9325f6548177f7685704",
+      "csv_rows": 2
+    },
+    {
+      "path": "stage1/data/sample/telegram_coverage.csv",
+      "bytes": 4439,
+      "sha256": "1b005537692b92c5ad956dc5749261cf32a53f2feb5ec2839c1be0d748e34e36",
+      "csv_rows": 20
+    },
+    {
+      "path": "stage1/data/sample/telegram_windows.csv",
+      "bytes": 5292,
+      "sha256": "68a73f923aced1b2100080109e4e79a7247f640af1588da10c72e3443eac9ba4",
+      "csv_rows": 20
+    },
+    {
+      "path": "stage1/data/smoke/telegram.csv",
+      "bytes": 7201,
+      "sha256": "86208d33d8a3fe01891509a3b31b6088f655eecb846f961ec5eec997e9b12ad8",
+      "csv_rows": 3
+    },
+    {
+      "path": "stage1/data/smoke/telegram_coverage.csv",
+      "bytes": 393,
+      "sha256": "a5e9ab46500562b9a7c2e59c6441a02806fa7632671b8fd1d534062739e8900e",
+      "csv_rows": 4
+    },
+    {
+      "path": "stage1/data/smoke/telegram_errors.csv",
+      "bytes": 605,
+      "sha256": "b8058c4406f1e7223674fae30b387983599840bf147835e1e12689d38b02ae1c",
+      "csv_rows": 4
+    },
+    {
+      "path": "stage1/qa/notebook/pikabu_demo.csv",
+      "bytes": 115302,
+      "sha256": "d61954b97755a1bb8791650ec801d3f6c472fe1d49a8131554eaaa05c6941b15",
+      "csv_rows": 40
+    },
+    {
+      "path": "stage1/qa/notebook/tabiturient_demo.csv",
+      "bytes": 46702,
+      "sha256": "464696e11507a10241fd064ab3173c1aaa7778e778c750380d939855e122fef0",
+      "csv_rows": 41
+    },
+    {
+      "path": "stage1/qa/notebook/telegram_demo.csv",
+      "bytes": 44065,
+      "sha256": "ffe7e1af08f131bd684b14a84b8d994425984d33edc293bbb971df6fcfa7da31",
+      "csv_rows": 20
+    },
+    {
+      "path": "stage1/qa/notebook/База_трёх_источников.xlsx",
+      "bytes": 991977,
+      "sha256": "cda405429347c7ed2c49d5bb780d9231f8c9708af4f16c389b65b7aef1f18bf3",
+      "csv_rows": null
+    },
+    {
+      "path": "stage1/qa/notebook/Демонстрация.xlsx",
+      "bytes": 94039,
+      "sha256": "370c594d2c02faf5b787db468e75a146b32c35401ab85b095259c7b7293d33aa",
+      "csv_rows": null
+    },
+    {
+      "path": "stage1/qa/pikabu_errors.csv",
+      "bytes": 301,
+      "sha256": "9aac5f161f6c5174cc97ac9b10e68188beb060f4ab28ac2348852a1b56d02cb7",
+      "csv_rows": 2
+    },
+    {
+      "path": "stage1/verification/pikabu/pikabu_coverage.csv",
+      "bytes": 3541,
+      "sha256": "2b23f8dada7c598844d56930413b8a896d91060bd4fd3328b1f624b7e4ff6bad",
+      "csv_rows": 20
+    },
+    {
+      "path": "stage1/verification/pikabu/pikabu_errors.csv",
+      "bytes": 23261,
+      "sha256": "09db406604f3d07dc7ea9e42a826490379c038ea35622191600598da097d17d0",
+      "csv_rows": 20
+    }
+  ]
+}
