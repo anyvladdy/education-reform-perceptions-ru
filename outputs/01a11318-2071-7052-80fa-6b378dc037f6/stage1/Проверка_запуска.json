@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "all_cells_executed": true,
+  "code_cells": 11,
+  "errors": 0,
+  "tested_at_msk": "2026-10-07T02:24:24+03:00",
+  "mode": "FULL_RUN=False; N_DEMO=20; three live Selenium sessions",
+  "python_version": "3.12.14",
+  "code_sha256": "38dc8ec0254f027e1aebbd0d38fb90b2f43eedc899f0d06e9e31758b022fd60c",
+  "input_excel_sha256": "cda405429347c7ed2c49d5bb780d9231f8c9708af4f16c389b65b7aef1f18bf3"
+}
