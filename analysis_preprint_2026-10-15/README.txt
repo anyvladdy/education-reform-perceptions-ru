@@ -53,3 +53,7 @@ scripts/prepare.py и scripts/prepare_audit.py сохранены для опи�
 
 audit/future_human_coding_blank.csv — незаполненный шаблон, не человеческая разметка.
 После изменения кодификатора требуется новый независимый контрольный набор.
+
+Перерисовать только рисунок 5 после изменения его оформления:
+  python analysis_preprint_2026-10-15/scripts/analyze.py --family-figure-only
+Этот режим читает сохранённую таблицу vi3_family_profiles.csv и не меняет метки.

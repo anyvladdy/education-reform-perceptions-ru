@@ -267,6 +267,65 @@ def main(partial=False):
     make_figures(df,rel,screen,profiles,v1,v2,agreement,deval,cross_profiles)
     print(json.dumps({'included':len(rel),'secondary':len(second),'secondary_missing':audit_missing,'strict_cooling':facts['cool_ids'],'devaluation_n':len(deval)},ensure_ascii=False))
 
+def make_family_observability_figure(profiles):
+    """Explain three separate textual indicators; do not imply agreement or accuracy."""
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    from matplotlib.ticker import PercentFormatter
+    fields=['family','role_known','reading_known']
+    titles=['А. Семейный опыт\nиспользован как аргумент',
+            'Б. Автор прямо сообщает\nо своей роли',
+            'В. Модель определила тип\nреакции на утверждение']
+    descriptions=['Опыт семьи помогает\nобосновать оценку или выбор.',
+                  'Например: родитель,\nабитуриент или выпускник.',
+                  'Принятие, принятие с оговорками\nили оспаривание утверждения.']
+    colors=['#285A78','#BD7A3B','#517A72']
+    style={'font.family':'DejaVu Sans','font.size':12,'axes.spines.top':False,
+           'axes.spines.right':False,'axes.spines.left':False,'svg.fonttype':'none',
+           'figure.facecolor':'white','axes.facecolor':'white','savefig.facecolor':'white'}
+    with plt.rc_context(style):
+        fig,axes=plt.subplots(1,3,figsize=(14,8.2),sharey=True)
+        fig.subplots_adjust(left=.19,right=.99,top=.70,bottom=.32,wspace=.18)
+        fig.text(.025,.965,'Какие сведения модель выделила в сообщениях',
+                 fontsize=20,fontweight='bold',va='top',color='#17212a')
+        fig.text(.025,.91,'Три отдельных признака. Длина полосы показывает долю сообщений с данным признаком.',
+                 fontsize=12,color='#4b5563')
+        y=np.arange(len(GROUPS))
+        for j,(ax,field) in enumerate(zip(axes,fields)):
+            sub=profiles[profiles.code==field].set_index('group').loc[GROUPS]
+            ax.barh(y,np.full(len(y),100),height=.45,color='#EDF0F3',zorder=1)
+            ax.barh(y,sub.pct.to_numpy(),height=.45,color=colors[j],zorder=2)
+            for i,r in enumerate(sub.itertuples()):
+                ax.text(104,i,f'{int(r.n)}/{int(r.N)}',va='center',ha='left',
+                        fontsize=11,fontweight='bold',color='#17212a')
+            ax.text(0,1.29,titles[j],transform=ax.transAxes,fontsize=13.2,
+                    fontweight='bold',va='top',linespacing=1.3,color='#17212a')
+            ax.text(0,1.11,descriptions[j],transform=ax.transAxes,fontsize=10.5,
+                    va='top',linespacing=1.35,color='#4b5563')
+            ax.set_xlim(0,139);ax.set_xticks([0,50,100])
+            ax.xaxis.set_major_formatter(PercentFormatter())
+            ax.tick_params(axis='x',labelsize=10,length=3,color='#9CA3AF')
+            ax.tick_params(axis='y',length=0,pad=12)
+            ax.spines['bottom'].set_color('#CBD2D9')
+            ax.set_ylim(len(y)-.45,-.55)
+        axes[0].set_yticks(y,[GLABEL[g].replace('\n',' — ') for g in GROUPS])
+        fig.text(.19,.26,'Числа справа: сообщения с признаком / все включённые сообщения данного типа.',
+                 fontsize=11,color='#4b5563')
+        fig.text(.025,.205,
+                 'Как читать 78/100 в панели В: в 78 из 100 комментариев Пикабу модель назначила тип реакции.\n'
+                 'Число 78 объединяет все три типа реакции; доля сообщений с согласием на этом графике не показана.',
+                 fontsize=12,linespacing=1.5,va='top',color='#17212a',
+                 bbox={'boxstyle':'round,pad=.7','facecolor':'#F0F5F4','edgecolor':'none'})
+        fig.text(.025,.083,
+                 'Серый остаток: признак не отмечен моделью; это не характеристика человека.\n'
+                 'Разметка предварительная. Согласованность классификации реакций низкая; проверка исследователем не проведена.',
+                 fontsize=10.2,linespacing=1.5,va='top',color='#4b5563')
+        for extension in ['png','svg']:
+            fig.savefig(ROOT/'figures'/f'04_family_observability.{extension}',
+                        dpi=220,bbox_inches='tight')
+        plt.close(fig)
+
 def make_figures(df,rel,screen,profiles,v1,v2,agreement,deval,cross_profiles):
     import matplotlib
     matplotlib.use('Agg')
@@ -308,15 +367,7 @@ def make_figures(df,rel,screen,profiles,v1,v2,agreement,deval,cross_profiles):
     for i,n in enumerate(vals):axs[1].text(n+.5,i,str(n),va='center')
     fig.suptitle('Консультирование и границы определения охлаждения',x=.02,ha='left',fontweight='bold',fontsize=16)
     save(fig,'03_advice_mechanisms',f'Табитуриент: {len(a)} включённых ответов. Несколько ответов могут относиться к одному вопросу.')
-    fig,ax=plt.subplots(figsize=(10,5.5));fields=['family','role_known','reading_known'];labels=['Семейный опыт в аргументации','Самоописание роли автора','Установлен тезис для прочтения'];y=np.arange(5)
-    for j,field in enumerate(fields):
-        sub=profiles[profiles.code==field].set_index('group');vals=[sub.loc[g,'pct'] if g in sub.index else 0 for g in GROUPS]
-        ax.barh(y+(j-1)*.22,vals,height=.2,label=labels[j],color=colors[j])
-        for i,g in enumerate(GROUPS):
-            if g in sub.index:
-                r=sub.loc[g];ax.text(vals[i]+.6,y[i]+(j-1)*.22,f"{int(r['n'])}/{int(r['N'])}",va='center',fontsize=8)
-    ax.set_yticks(y,[GLABEL[g].replace('\n',' — ') for g in GROUPS]);ax.invert_yaxis();ax.set_xlim(0,110);ax.xaxis.set_major_formatter(PercentFormatter());ax.set_title('Какие тексты позволяют изучать семейный опыт и прочтения',loc='left');ax.legend(loc='lower right',fontsize=9)
-    save(fig,'04_family_observability','Знаменатель — все включённые сообщения соответствующего типа. Отсутствие самоописания не означает отсутствие роли.')
+    make_family_observability_figure(profiles)
     fig,ax=plt.subplots(figsize=(10,5.5));counts={DBLABEL[k]:int(deval['db_'+k].sum()) for k in DBLABEL};counts=dict(sorted(counts.items(),key=lambda x:x[1],reverse=True))
     ax.barh(list(counts),list(counts.values()),color=colors[1]);ax.invert_yaxis();ax.set_xlabel('Число сообщений с основанием');ax.set_title('Чем обосновывается снижение ценности диплома',loc='left')
     for i,n in enumerate(counts.values()):ax.text(n+.2,i,f'{n}/{len(deval)}',va='center')
@@ -339,4 +390,11 @@ def make_figures(df,rel,screen,profiles,v1,v2,agreement,deval,cross_profiles):
     save(fig,'07_calendar_coverage','Число родительских единиц до скрининга: постов либо вопросов. Нули означают отсутствие сохранённых данных.')
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--partial',action='store_true');args=p.parse_args();main(args.partial)
+    p=argparse.ArgumentParser()
+    p.add_argument('--partial',action='store_true')
+    p.add_argument('--family-figure-only',action='store_true')
+    args=p.parse_args()
+    if args.family_figure_only:
+        make_family_observability_figure(pd.read_csv(ROOT/'tables/vi3_family_profiles.csv'))
+    else:
+        main(args.partial)

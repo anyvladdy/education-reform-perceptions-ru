@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-15",
+  "figure": "04_family_observability",
+  "change": "Separate three panels; explain that 78/100 combines all assigned reaction types and is not agreement or validation; add illustrative example in VI3 prose",
+  "scientific_values_changed": false,
+  "unchanged_data_annotation_table_files": 112,
+  "comparison_basis": "Parsed JSON/JSONL/CSV values; line endings disregarded",
+  "other_png_figures_unchanged": true,
+  "public_local_png_identical": true,
+  "svg_parse_valid": true,
+  "report_links_valid": true,
+  "human_validation_performed": false
+}
