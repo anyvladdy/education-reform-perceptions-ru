@@ -226,3 +226,9 @@ __marimo__/
 *.zip
 *_checkpoint.json
 .env
+
+# stage2: собранные данные, сессии Telegram и ключи не публикуются
+/stage2/data/
+/stage2/.secrets/
+*.session
+*.session-journal

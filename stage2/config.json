@@ -1,0 +1,27 @@
+{
+  "_comment": "Окна сбора — рабочие значения проекта (METHODOLOGY.md 4.7): одинаковые календарные окна для всех лет. Менять до просмотра распределений кодов.",
+  "period": {"start": "2018-01-01", "end": "2026-10-06"},
+  "official_windows": {"years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "start_md": "06-01", "end_md": "09-30"},
+  "admissions_windows": {"years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "start_md": "06-01", "end_md": "09-30"},
+  "pilot_per_source": 20,
+  "pause_seconds": 1.5,
+  "insecure_tls_hosts": ["edu.gov.ru"],
+  "minobr_live_from": "2024-01-01",
+  "wayback": [
+    {
+      "source_id": "state_minobr_wayback",
+      "url": "minobrnauki.gov.ru/ru/press-center/*",
+      "from": "20180515",
+      "to": "20201231",
+      "article_regex": "press-center/(?:card|news)/.*(?:\\?id_4=\\d+|/\\d+/?$)",
+      "_note": "Шаблон версии сайта 2018–2020 подлежит проверке в пилоте"
+    },
+    {
+      "source_id": "state_minobr_wayback",
+      "url": "minobrnauki.gov.ru/press-center/news/*",
+      "from": "20201101",
+      "to": "20240630",
+      "article_regex": "press-center/news/(?:\\?ELEMENT_ID=\\d+|[a-z0-9-]+/\\d+/?$)"
+    }
+  ]
+}
