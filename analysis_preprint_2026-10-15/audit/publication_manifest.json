@@ -12,5 +12,7 @@
   ],
   "duplicate_decisions": "Fixed from local text-based analysis; public rerun reuses decisions without reprocessing withheld texts",
   "source_analysis": "analysis_preprint_2026-10-15",
-  "human_validation_performed": false
+  "author_review_confirmed": true,
+  "review_confirmation": "audit/author_review_confirmation.json",
+  "independent_human_coding_performed": false
 }

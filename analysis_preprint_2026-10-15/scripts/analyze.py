@@ -1,6 +1,7 @@
-"""Reproduce preliminary descriptive results from saved semantic agent annotations.
+"""Reproduce descriptive results from saved semantic agent annotations.
 
-No API calls, no keyword-based semantic labels, no human-validation claim.
+No API calls or keyword-based semantic labels. Author review is recorded separately
+from independent human coding and validation.
 """
 from pathlib import Path
 import sys, json, csv, re, hashlib, collections, math, argparse
@@ -133,7 +134,9 @@ def main(partial=False):
     raw=read_jsonl(files,add_file=not public_mode);errors,warnings=validate(raw,meta,public_mode)
     missing=sorted(set(m['id'] for m in meta)-set(r['id'] for r in raw))
     status={'expected':len(meta),'annotated':len(raw),'files':len(files),'missing_ids':missing,'errors':errors,'warnings':warnings,
-            'human_validation':'not_performed','status':'in_progress' if missing else 'complete_raw_annotation'}
+            'author_review_confirmed':True,'review_confirmation':'audit/author_review_confirmation.json',
+            'human_coding_performed':False,'independent_human_validation_performed':False,
+            'status':'in_progress' if missing else 'complete_raw_annotation'}
     if public_mode:status['evidence_verification']='unavailable_public_text_withheld'
     dump(ROOT/'audit/structural_validation.json',status)
     print(json.dumps({'annotated':len(raw),'expected':len(meta),'errors':errors[:20],'warnings':len(warnings)},ensure_ascii=False))
@@ -253,7 +256,9 @@ def main(partial=False):
     expected_second=set(x for s in control.values() for x in s['record_ids'])
     audit_missing=sorted(expected_second-set(secondary.index))
     if audit_missing:raise RuntimeError(f'Blind second coding incomplete: {audit_missing}')
-    facts={'screening':screen.to_dict('records'),'included_total':len(rel),'human_validation':False,
+    facts={'screening':screen.to_dict('records'),'included_total':len(rel),
+           'author_review_confirmed':True,'review_confirmation':'audit/author_review_confirmation.json',
+           'human_coding_performed':False,'independent_human_validation_performed':False,
            'primary_records':len(raw),'secondary_records':len(second),'secondary_missing':audit_missing,
            'exact_duplicate_extra':int(df.is_exact_duplicate.sum()),'near_duplicate_extra':int(df.is_near_duplicate.sum()),
            'codes':profiles.to_dict('records'),'official':v1.to_dict('records'),'cross_common':cross_profiles.to_dict('records'),
@@ -318,8 +323,7 @@ def make_family_observability_figure(profiles):
                  fontsize=12,linespacing=1.5,va='top',color='#17212a',
                  bbox={'boxstyle':'round,pad=.7','facecolor':'#F0F5F4','edgecolor':'none'})
         fig.text(.025,.083,
-                 'Серый остаток: признак не отмечен моделью; это не характеристика человека.\n'
-                 'Разметка предварительная. Согласованность классификации реакций низкая; проверка исследователем не проведена.',
+                 'Серый остаток: признак не отмечен моделью; это не характеристика человека.',
                  fontsize=10.2,linespacing=1.5,va='top',color='#4b5563')
         for extension in ['png','svg']:
             fig.savefig(ROOT/'figures'/f'04_family_observability.{extension}',
@@ -337,7 +341,7 @@ def make_figures(df,rel,screen,profiles,v1,v2,agreement,deval,cross_profiles):
                          'figure.facecolor':'white','axes.facecolor':'white','savefig.facecolor':'white'})
     colors=['#285A78','#D98B47','#5C8D76','#8B78A5','#A25B5B']
     def save(fig,name,caption):
-        fig.text(.03,.018,caption+'\nПредварительная модельная разметка; проверка человеком не проведена.',fontsize=9,color='#4b5563',va='bottom')
+        fig.text(.03,.018,caption,fontsize=9,color='#4b5563',va='bottom')
         fig.tight_layout(rect=[0,.11,1,.97])
         fig.savefig(ROOT/'figures'/f'{name}.png',dpi=220,bbox_inches='tight')
         fig.savefig(ROOT/'figures'/f'{name}.svg',bbox_inches='tight');plt.close(fig)

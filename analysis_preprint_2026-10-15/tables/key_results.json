@@ -42,7 +42,10 @@
     }
   ],
   "included_total": 773,
-  "human_validation": false,
+  "author_review_confirmed": true,
+  "review_confirmation": "audit/author_review_confirmation.json",
+  "human_coding_performed": false,
+  "independent_human_validation_performed": false,
   "primary_records": 1094,
   "secondary_records": 165,
   "secondary_missing": [],

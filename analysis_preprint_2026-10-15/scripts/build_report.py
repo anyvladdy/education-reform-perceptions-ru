@@ -8,11 +8,14 @@ def build():
     spec=json.loads((ROOT/'report/report_content.json').read_text(encoding='utf-8'))
     body=[];plain=[]
     body.append(f'<h1>{esc(spec["title"])}</h1>')
-    body.append('<p class="subtitle">Препринт · 15 октября 2026 года</p>')
-    plain.extend([spec['title'],'Препринт. 15 октября 2026 года.',''])
+    subtitle=spec.get('subtitle','Анализ данных и результаты исследования')
+    body.append(f'<p class="subtitle">{esc(subtitle)}</p>')
+    plain.extend([spec['title'],subtitle,''])
     for block in spec['blocks']:
         kind=block['type']
-        if kind=='h2':body.append(f'<h2 id="{esc(block["id"])}">{esc(block["text"])}</h2>');plain+=['',block['text'],'']
+        if kind in ('h2','heading'):
+            level=min(4,max(2,block.get('level',2)))
+            body.append(f'<h{level} id="{esc(block["id"])}">{esc(block["text"])}</h{level}>');plain+=['',block['text'],'']
         elif kind=='p':body.append(f'<p>{esc(block["text"])}</p>');plain+=[block['text'],'']
         elif kind=='figure':
             stem=block['file'];cap=block['caption']

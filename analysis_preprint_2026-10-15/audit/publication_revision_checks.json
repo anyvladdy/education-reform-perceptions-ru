@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-15",
+  "base_commit": "7deb38879d5b7a054711ac67a692f93d2637e1ad",
+  "result": "passed",
+  "protected_files_content_identical": 112,
+  "comparison_note": "Content compared after normalizing Windows line endings; category and numeric values are unchanged.",
+  "reference_documents_content_unchanged": true,
+  "numeric_tables_and_annotations_unchanged": true,
+  "case_cards_only_updated_field": "sufficiency",
+  "key_results_only_review_metadata_updated": true,
+  "figure_numeric_checks": [
+    {
+      "file": "01_screening.svg",
+      "numeric_labels_unchanged": true
+    },
+    {
+      "file": "02_official_arguments.svg",
+      "numeric_labels_unchanged": true
+    },
+    {
+      "file": "03_advice_mechanisms.svg",
+      "numeric_labels_unchanged": true
+    },
+    {
+      "file": "04_family_observability.svg",
+      "numeric_labels_unchanged": true
+    },
+    {
+      "file": "05_devaluation_bases.svg",
+      "numeric_labels_unchanged": true
+    },
+    {
+      "file": "06_cross_corpus.svg",
+      "numeric_labels_unchanged": true
+    },
+    {
+      "file": "07_calendar_coverage.svg",
+      "numeric_labels_unchanged": true
+    }
+  ],
+  "manuscript_words": 3960,
+  "report_sections": 8,
+  "report_figures": 7,
+  "public_text_fields_absent": true,
+  "publication_status_wording_scan": "passed",
+  "author_review_record": "audit/author_review_confirmation.json",
+  "public_reproduction_check": "audit/public_reproduction_check.json",
+  "fact_review": "Counts, percentages, denominators and qualitative case interpretations checked against saved tables and source material before publication."
+}

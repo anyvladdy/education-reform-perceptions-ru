@@ -87,7 +87,8 @@ dump(ROOT/'audit'/'preparation_notes.json',{
     'date':'2026-10-15','timezone':'Europe/Moscow','raw_files_modified':False,
     'pseudonymization':'Автоматически удалены URL, email, аккаунты, телефоны и некоторые конструкции ФИО. Автоматическая процедура не гарантирует полной анонимности; в публичном отчёте используются только перефразы.',
     'periods':{'P1':'2018-01-01—2020-03-10','P2':'2020-03-11—2022-02-23','P3':'2022-02-24—2023-12-31','P4':'2024-01-01—2026-10-06'},
-    'human_validation':'not_performed; deferred by user to main article',
+    'author_review_record':'audit/author_review_confirmation.json',
+    'independent_human_coding_performed':False,
     'annotation_model':'gpt-6-luna','reasoning_effort':'medium','mode':'tool-based agent semantic reading',
     'pilot':'8 systematic chronological development packages per corpus; AI-only, not methodological human pilot',
     'sampling':'Frozen collected snapshot; no new source collection.'})
