@@ -232,3 +232,7 @@ __marimo__/
 /stage2/.secrets/
 *.session
 *.session-journal
+
+# stage2_selenium: собранные данные и локальная соль псевдонимов
+/stage2_selenium/data/
+/stage2_selenium/.secrets/

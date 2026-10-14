@@ -1,0 +1,34 @@
+{
+  "_comment": "Вариант без ключей и входа. Окна и пилот совпадают со stage2/config.json; источники — только публичные.",
+  "period": {"start": "2018-01-01", "end": "2026-10-06"},
+  "official_windows": {"years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "start_md": "06-01", "end_md": "09-30"},
+  "admissions_windows": {"years": [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026], "start_md": "06-01", "end_md": "09-30"},
+  "pilot_per_source": 20,
+  "pause_seconds": 1.5,
+  "insecure_tls_hosts": ["edu.gov.ru"],
+  "minobr_live_from": "2024-01-01",
+  "wayback": [
+    {
+      "source_id": "state_minobr_wayback",
+      "url": "minobrnauki.gov.ru/ru/press-center/*",
+      "from": "20180515",
+      "to": "20201231",
+      "article_regex": "press-center/(?:card|news)/.*(?:\\?id_4=\\d+|/\\d+/?$)"
+    },
+    {
+      "source_id": "state_minobr_wayback",
+      "url": "minobrnauki.gov.ru/press-center/news/*",
+      "from": "20201101",
+      "to": "20240630",
+      "article_regex": "press-center/news/(?:\\?ELEMENT_ID=\\d+|[a-z0-9-]+/\\d+/?$)"
+    }
+  ],
+  "_channels_note": "Публичные каналы из реестра. uni_mgpu_tg и uni_urfu_tg — общие каналы вузов (в реестре резерв): VK этих вузов без входа недоступен.",
+  "telegram_channels": [
+    "state_minpros_tg", "state_minobr_tg",
+    "uni_mgpu_tg", "uni_itmo_tg", "uni_urfu_tg", "uni_nstu_tg", "uni_dvfu_tg",
+    "col_ks54_tg", "col_uktp_tg", "col_vbmk_tg"
+  ],
+  "_staff_note": "Псевдонимы сотрудников приёмных комиссий, подтверждённые вручную (см. authors.py). Пример: {\"uni_dvfu_tg\": [\"3f2a...\"]}",
+  "staff_verified": {}
+}
