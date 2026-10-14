@@ -9,7 +9,10 @@
       "issue": "evidence verification unavailable; public text withheld"
     }
   ],
-  "human_validation": "not_performed",
+  "author_review_confirmed": true,
+  "review_confirmation": "audit/author_review_confirmation.json",
+  "human_coding_performed": false,
+  "independent_human_validation_performed": false,
   "status": "complete_raw_annotation",
   "evidence_verification": "unavailable_public_text_withheld"
 }

@@ -1,4 +1,6 @@
 {
+  "date": "2026-10-15",
+  "mode": "public_metadata_only",
   "table_comparison": [
     {
       "file": "adjudication_sensitivity.csv",
@@ -103,7 +105,17 @@
       "identical_bytes": true
     }
   ],
-  "key_results_identical": true,
-  "human_validation_performed": false,
-  "source_text_used_in_public_rerun": false
+  "key_results_numerically_identical": true,
+  "key_results_status_updated": true,
+  "author_review_confirmed": true,
+  "independent_human_coding_performed": false,
+  "source_text_used_in_public_rerun": false,
+  "manuscript_build_identical": true,
+  "portable_manuscript_fallback_identical": true,
+  "notebook_syntax_valid": true,
+  "primary_records": 1094,
+  "included_records": 773,
+  "secondary_records": 165,
+  "strict_cooling": 0,
+  "devaluation": 9
 }
