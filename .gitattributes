@@ -3,3 +3,6 @@
 *.csv -text
 *.xlsx binary
 *.xls binary
+
+# Preserve the checked preprint artifact bytes, including CSV line endings.
+analysis_preprint_2026-10-15/** -text

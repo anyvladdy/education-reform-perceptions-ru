@@ -1,0 +1,56 @@
+{
+  "telegram": {
+    "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/telegram.csv",
+    "sha256": "742ab8a459aa613ee404c16275e6cd848aaf8c18304ca26b48e5ee48ce1bff42",
+    "rows": 420,
+    "packages": 420,
+    "batches": 42,
+    "text_chars": 476971,
+    "pilot_ids": [
+      "TG0001",
+      "TG0061",
+      "TG0121",
+      "TG0181",
+      "TG0240",
+      "TG0300",
+      "TG0360",
+      "TG0420"
+    ]
+  },
+  "pikabu": {
+    "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/pikabu.csv",
+    "sha256": "e90ab37c28fd74a6c37c17c456d566ec7321037db85da78e52cab6c66ca114a8",
+    "rows": 340,
+    "packages": 174,
+    "batches": 30,
+    "text_chars": 464111,
+    "pilot_ids": [
+      "PK0002",
+      "PK0052",
+      "PK0099",
+      "PK0147",
+      "PK0197",
+      "PK0248",
+      "PK0294",
+      "PK0340"
+    ]
+  },
+  "tabiturient": {
+    "path": "outputs/01a11318-2071-7052-80fa-6b378dc037f6/stage1/tabiturient.csv",
+    "sha256": "abdcc76296d5b2f4423c350475f1880b85c7968cde769c1f8e801da910bb3fad",
+    "rows": 334,
+    "packages": 129,
+    "batches": 14,
+    "text_chars": 122701,
+    "pilot_ids": [
+      "TB0001",
+      "TB0036",
+      "TB0082",
+      "TB0112",
+      "TB0171",
+      "TB0229",
+      "TB0280",
+      "TB0334"
+    ]
+  }
+}

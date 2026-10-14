@@ -1,0 +1,8 @@
+{
+  "rule": "Merge P3/P4 within corpus if either has fewer than30 eligible parent units, before code comparison",
+  "merge": {
+    "pikabu": true,
+    "tabiturient": false,
+    "telegram": false
+  }
+}

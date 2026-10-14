@@ -1,0 +1,11 @@
+﻿question_type,code,n,N,unknown,pct
+mixed,alternative,65,91,0,71.42857142857143
+mixed,m_cool,0,91,0,0.0
+mixed,m_warm,27,91,0,29.67032967032967
+mixed,m_route,20,91,0,21.978021978021978
+mixed,m_info,52,91,0,57.142857142857146
+procedure,alternative,60,111,0,54.054054054054056
+procedure,m_cool,0,111,0,0.0
+procedure,m_warm,27,111,0,24.324324324324323
+procedure,m_route,12,111,0,10.81081081081081
+procedure,m_info,83,111,0,74.77477477477477

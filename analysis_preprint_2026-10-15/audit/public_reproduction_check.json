@@ -1,0 +1,109 @@
+{
+  "table_comparison": [
+    {
+      "file": "adjudication_sensitivity.csv",
+      "identical_values": true
+    },
+    {
+      "file": "ai_agreement.csv",
+      "identical_values": true
+    },
+    {
+      "file": "ai_disagreements.csv",
+      "identical_values": true
+    },
+    {
+      "file": "case_cards.csv",
+      "identical_values": true
+    },
+    {
+      "file": "coverage_periods.csv",
+      "identical_values": true
+    },
+    {
+      "file": "near_duplicate_pairs.csv",
+      "identical_values": true
+    },
+    {
+      "file": "profiles.csv",
+      "identical_values": true
+    },
+    {
+      "file": "profiles_by_period.csv",
+      "identical_values": true
+    },
+    {
+      "file": "screening.csv",
+      "identical_values": true
+    },
+    {
+      "file": "sensitivity.csv",
+      "identical_values": true
+    },
+    {
+      "file": "vi1_official_all.csv",
+      "identical_values": true
+    },
+    {
+      "file": "vi1_official_common_windows.csv",
+      "identical_values": true
+    },
+    {
+      "file": "vi2_goal_relation.csv",
+      "identical_values": true
+    },
+    {
+      "file": "vi2_question_answer.csv",
+      "identical_values": true
+    },
+    {
+      "file": "vi3_family_profiles.csv",
+      "identical_values": true
+    },
+    {
+      "file": "vi3_role_stance.csv",
+      "identical_values": true
+    },
+    {
+      "file": "vi4_devaluation_bases.csv",
+      "identical_values": true
+    },
+    {
+      "file": "vi5_common_topic_period.csv",
+      "identical_values": true
+    }
+  ],
+  "png_comparison": [
+    {
+      "file": "01_screening.png",
+      "identical_bytes": true
+    },
+    {
+      "file": "02_official_arguments.png",
+      "identical_bytes": true
+    },
+    {
+      "file": "03_advice_mechanisms.png",
+      "identical_bytes": true
+    },
+    {
+      "file": "04_family_observability.png",
+      "identical_bytes": true
+    },
+    {
+      "file": "05_devaluation_bases.png",
+      "identical_bytes": true
+    },
+    {
+      "file": "06_cross_corpus.png",
+      "identical_bytes": true
+    },
+    {
+      "file": "07_calendar_coverage.png",
+      "identical_bytes": true
+    }
+  ],
+  "key_results_identical": true,
+  "human_validation_performed": false,
+  "source_text_used_in_public_rerun": false
+}

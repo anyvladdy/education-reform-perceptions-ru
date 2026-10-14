@@ -1,0 +1,1212 @@
+{
+  "screening": [
+    {
+      "group": "telegram_post",
+      "total": 420,
+      "included": 208,
+      "excluded": 211,
+      "undetermined": 1,
+      "missing_main_text": 0
+    },
+    {
+      "group": "pikabu_post",
+      "total": 174,
+      "included": 134,
+      "excluded": 35,
+      "undetermined": 5,
+      "missing_main_text": 3
+    },
+    {
+      "group": "pikabu_comment",
+      "total": 166,
+      "included": 100,
+      "excluded": 57,
+      "undetermined": 9,
+      "missing_main_text": 6
+    },
+    {
+      "group": "tabiturient_question",
+      "total": 129,
+      "included": 129,
+      "excluded": 0,
+      "undetermined": 0,
+      "missing_main_text": 0
+    },
+    {
+      "group": "tabiturient_answer",
+      "total": 205,
+      "included": 202,
+      "excluded": 3,
+      "undetermined": 0,
+      "missing_main_text": 0
+    }
+  ],
+  "included_total": 773,
+  "human_validation": false,
+  "primary_records": 1094,
+  "secondary_records": 165,
+  "secondary_missing": [],
+  "exact_duplicate_extra": 6,
+  "near_duplicate_extra": 10,
+  "codes": [
+    {
+      "group": "telegram_post",
+      "code": "l_auth",
+      "n": 40,
+      "N": 208,
+      "unknown": 0,
+      "pct": 19.23076923076923
+    },
+    {
+      "group": "telegram_post",
+      "code": "l_rat",
+      "n": 169,
+      "N": 208,
+      "unknown": 0,
+      "pct": 81.25
+    },
+    {
+      "group": "telegram_post",
+      "code": "l_moral",
+      "n": 8,
+      "N": 208,
+      "unknown": 0,
+      "pct": 3.8461538461538463
+    },
+    {
+      "group": "telegram_post",
+      "code": "l_narr",
+      "n": 8,
+      "N": 208,
+      "unknown": 0,
+      "pct": 3.8461538461538463
+    },
+    {
+      "group": "telegram_post",
+      "code": "m_cool",
+      "n": 0,
+      "N": 208,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "telegram_post",
+      "code": "m_warm",
+      "n": 25,
+      "N": 208,
+      "unknown": 0,
+      "pct": 12.01923076923077
+    },
+    {
+      "group": "telegram_post",
+      "code": "m_route",
+      "n": 14,
+      "N": 208,
+      "unknown": 0,
+      "pct": 6.730769230769231
+    },
+    {
+      "group": "telegram_post",
+      "code": "m_info",
+      "n": 124,
+      "N": 208,
+      "unknown": 0,
+      "pct": 59.61538461538461
+    },
+    {
+      "group": "telegram_post",
+      "code": "family",
+      "n": 2,
+      "N": 208,
+      "unknown": 0,
+      "pct": 0.9615384615384616
+    },
+    {
+      "group": "telegram_post",
+      "code": "role_known",
+      "n": 0,
+      "N": 208,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "telegram_post",
+      "code": "reading_known",
+      "n": 0,
+      "N": 208,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "telegram_post",
+      "code": "goal_known",
+      "n": 0,
+      "N": 208,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "telegram_post",
+      "code": "deval",
+      "n": 1,
+      "N": 208,
+      "unknown": 0,
+      "pct": 0.4807692307692308
+    },
+    {
+      "group": "telegram_post",
+      "code": "alternative",
+      "n": 46,
+      "N": 208,
+      "unknown": 0,
+      "pct": 22.115384615384617
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "l_auth",
+      "n": 5,
+      "N": 100,
+      "unknown": 0,
+      "pct": 5.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "l_rat",
+      "n": 36,
+      "N": 100,
+      "unknown": 0,
+      "pct": 36.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "l_moral",
+      "n": 18,
+      "N": 100,
+      "unknown": 0,
+      "pct": 18.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "l_narr",
+      "n": 16,
+      "N": 100,
+      "unknown": 0,
+      "pct": 16.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "m_cool",
+      "n": 0,
+      "N": 100,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "m_warm",
+      "n": 10,
+      "N": 100,
+      "unknown": 0,
+      "pct": 10.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "m_route",
+      "n": 9,
+      "N": 100,
+      "unknown": 0,
+      "pct": 9.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "m_info",
+      "n": 9,
+      "N": 100,
+      "unknown": 0,
+      "pct": 9.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "family",
+      "n": 3,
+      "N": 100,
+      "unknown": 0,
+      "pct": 3.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "role_known",
+      "n": 16,
+      "N": 100,
+      "unknown": 0,
+      "pct": 16.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "reading_known",
+      "n": 78,
+      "N": 100,
+      "unknown": 0,
+      "pct": 78.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "goal_known",
+      "n": 8,
+      "N": 100,
+      "unknown": 0,
+      "pct": 8.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "deval",
+      "n": 0,
+      "N": 100,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "alternative",
+      "n": 21,
+      "N": 100,
+      "unknown": 0,
+      "pct": 21.0
+    },
+    {
+      "group": "pikabu_post",
+      "code": "l_auth",
+      "n": 14,
+      "N": 134,
+      "unknown": 0,
+      "pct": 10.447761194029852
+    },
+    {
+      "group": "pikabu_post",
+      "code": "l_rat",
+      "n": 62,
+      "N": 134,
+      "unknown": 0,
+      "pct": 46.26865671641791
+    },
+    {
+      "group": "pikabu_post",
+      "code": "l_moral",
+      "n": 24,
+      "N": 134,
+      "unknown": 0,
+      "pct": 17.91044776119403
+    },
+    {
+      "group": "pikabu_post",
+      "code": "l_narr",
+      "n": 64,
+      "N": 134,
+      "unknown": 0,
+      "pct": 47.76119402985075
+    },
+    {
+      "group": "pikabu_post",
+      "code": "m_cool",
+      "n": 0,
+      "N": 134,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "pikabu_post",
+      "code": "m_warm",
+      "n": 7,
+      "N": 134,
+      "unknown": 0,
+      "pct": 5.223880597014926
+    },
+    {
+      "group": "pikabu_post",
+      "code": "m_route",
+      "n": 8,
+      "N": 134,
+      "unknown": 0,
+      "pct": 5.970149253731344
+    },
+    {
+      "group": "pikabu_post",
+      "code": "m_info",
+      "n": 22,
+      "N": 134,
+      "unknown": 0,
+      "pct": 16.417910447761194
+    },
+    {
+      "group": "pikabu_post",
+      "code": "family",
+      "n": 26,
+      "N": 134,
+      "unknown": 0,
+      "pct": 19.402985074626866
+    },
+    {
+      "group": "pikabu_post",
+      "code": "role_known",
+      "n": 95,
+      "N": 134,
+      "unknown": 0,
+      "pct": 70.8955223880597
+    },
+    {
+      "group": "pikabu_post",
+      "code": "reading_known",
+      "n": 7,
+      "N": 134,
+      "unknown": 0,
+      "pct": 5.223880597014926
+    },
+    {
+      "group": "pikabu_post",
+      "code": "goal_known",
+      "n": 13,
+      "N": 134,
+      "unknown": 0,
+      "pct": 9.701492537313433
+    },
+    {
+      "group": "pikabu_post",
+      "code": "deval",
+      "n": 5,
+      "N": 134,
+      "unknown": 0,
+      "pct": 3.7313432835820897
+    },
+    {
+      "group": "pikabu_post",
+      "code": "alternative",
+      "n": 102,
+      "N": 134,
+      "unknown": 0,
+      "pct": 76.11940298507463
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "l_auth",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "l_rat",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "l_moral",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "l_narr",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "m_cool",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "m_warm",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "m_route",
+      "n": 20,
+      "N": 129,
+      "unknown": 0,
+      "pct": 15.503875968992247
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "m_info",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "family",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "role_known",
+      "n": 43,
+      "N": 129,
+      "unknown": 0,
+      "pct": 33.333333333333336
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "reading_known",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "goal_known",
+      "n": 21,
+      "N": 129,
+      "unknown": 0,
+      "pct": 16.27906976744186
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "deval",
+      "n": 0,
+      "N": 129,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "alternative",
+      "n": 101,
+      "N": 129,
+      "unknown": 0,
+      "pct": 78.29457364341086
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "l_auth",
+      "n": 18,
+      "N": 202,
+      "unknown": 0,
+      "pct": 8.910891089108912
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "l_rat",
+      "n": 82,
+      "N": 202,
+      "unknown": 0,
+      "pct": 40.59405940594059
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "l_moral",
+      "n": 1,
+      "N": 202,
+      "unknown": 0,
+      "pct": 0.49504950495049505
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "l_narr",
+      "n": 18,
+      "N": 202,
+      "unknown": 0,
+      "pct": 8.910891089108912
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "m_cool",
+      "n": 0,
+      "N": 202,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "m_warm",
+      "n": 54,
+      "N": 202,
+      "unknown": 0,
+      "pct": 26.73267326732673
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "m_route",
+      "n": 32,
+      "N": 202,
+      "unknown": 0,
+      "pct": 15.841584158415841
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "m_info",
+      "n": 135,
+      "N": 202,
+      "unknown": 0,
+      "pct": 66.83168316831683
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "family",
+      "n": 0,
+      "N": 202,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "role_known",
+      "n": 17,
+      "N": 202,
+      "unknown": 0,
+      "pct": 8.415841584158416
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "reading_known",
+      "n": 3,
+      "N": 202,
+      "unknown": 0,
+      "pct": 1.4851485148514851
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "goal_known",
+      "n": 112,
+      "N": 202,
+      "unknown": 0,
+      "pct": 55.445544554455445
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "deval",
+      "n": 3,
+      "N": 202,
+      "unknown": 0,
+      "pct": 1.4851485148514851
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "alternative",
+      "n": 125,
+      "N": 202,
+      "unknown": 0,
+      "pct": 61.881188118811885
+    }
+  ],
+  "official": [
+    {
+      "channel": "minprosrf",
+      "code": "l_auth",
+      "n": 7,
+      "N": 73,
+      "unknown": 0,
+      "pct": 9.58904109589041
+    },
+    {
+      "channel": "minprosrf",
+      "code": "l_rat",
+      "n": 54,
+      "N": 73,
+      "unknown": 0,
+      "pct": 73.97260273972603
+    },
+    {
+      "channel": "minprosrf",
+      "code": "l_moral",
+      "n": 6,
+      "N": 73,
+      "unknown": 0,
+      "pct": 8.219178082191782
+    },
+    {
+      "channel": "minprosrf",
+      "code": "l_narr",
+      "n": 4,
+      "N": 73,
+      "unknown": 0,
+      "pct": 5.47945205479452
+    },
+    {
+      "channel": "minprosrf",
+      "code": "t_spo",
+      "n": 25,
+      "N": 73,
+      "unknown": 0,
+      "pct": 34.24657534246575
+    },
+    {
+      "channel": "minprosrf",
+      "code": "t_he",
+      "n": 52,
+      "N": 73,
+      "unknown": 0,
+      "pct": 71.23287671232876
+    },
+    {
+      "channel": "minobrnaukiofficial",
+      "code": "l_auth",
+      "n": 16,
+      "N": 89,
+      "unknown": 0,
+      "pct": 17.97752808988764
+    },
+    {
+      "channel": "minobrnaukiofficial",
+      "code": "l_rat",
+      "n": 79,
+      "N": 89,
+      "unknown": 0,
+      "pct": 88.76404494382022
+    },
+    {
+      "channel": "minobrnaukiofficial",
+      "code": "l_moral",
+      "n": 1,
+      "N": 89,
+      "unknown": 0,
+      "pct": 1.1235955056179776
+    },
+    {
+      "channel": "minobrnaukiofficial",
+      "code": "l_narr",
+      "n": 2,
+      "N": 89,
+      "unknown": 0,
+      "pct": 2.247191011235955
+    },
+    {
+      "channel": "minobrnaukiofficial",
+      "code": "t_spo",
+      "n": 4,
+      "N": 89,
+      "unknown": 0,
+      "pct": 4.49438202247191
+    },
+    {
+      "channel": "minobrnaukiofficial",
+      "code": "t_he",
+      "n": 89,
+      "N": 89,
+      "unknown": 0,
+      "pct": 100.0
+    }
+  ],
+  "cross_common": [
+    {
+      "group": "telegram_post",
+      "code": "l_auth",
+      "n": 30,
+      "N": 181,
+      "unknown": 0,
+      "pct": 16.574585635359117
+    },
+    {
+      "group": "telegram_post",
+      "code": "l_rat",
+      "n": 145,
+      "N": 181,
+      "unknown": 0,
+      "pct": 80.11049723756906
+    },
+    {
+      "group": "telegram_post",
+      "code": "l_moral",
+      "n": 7,
+      "N": 181,
+      "unknown": 0,
+      "pct": 3.867403314917127
+    },
+    {
+      "group": "telegram_post",
+      "code": "l_narr",
+      "n": 7,
+      "N": 181,
+      "unknown": 0,
+      "pct": 3.867403314917127
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "l_auth",
+      "n": 1,
+      "N": 24,
+      "unknown": 0,
+      "pct": 4.166666666666667
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "l_rat",
+      "n": 8,
+      "N": 24,
+      "unknown": 0,
+      "pct": 33.333333333333336
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "l_moral",
+      "n": 2,
+      "N": 24,
+      "unknown": 0,
+      "pct": 8.333333333333334
+    },
+    {
+      "group": "pikabu_comment",
+      "code": "l_narr",
+      "n": 2,
+      "N": 24,
+      "unknown": 0,
+      "pct": 8.333333333333334
+    },
+    {
+      "group": "pikabu_post",
+      "code": "l_auth",
+      "n": 4,
+      "N": 44,
+      "unknown": 0,
+      "pct": 9.090909090909092
+    },
+    {
+      "group": "pikabu_post",
+      "code": "l_rat",
+      "n": 26,
+      "N": 44,
+      "unknown": 0,
+      "pct": 59.09090909090909
+    },
+    {
+      "group": "pikabu_post",
+      "code": "l_moral",
+      "n": 8,
+      "N": 44,
+      "unknown": 0,
+      "pct": 18.181818181818183
+    },
+    {
+      "group": "pikabu_post",
+      "code": "l_narr",
+      "n": 20,
+      "N": 44,
+      "unknown": 0,
+      "pct": 45.45454545454545
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "l_auth",
+      "n": 0,
+      "N": 104,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "l_rat",
+      "n": 0,
+      "N": 104,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "l_moral",
+      "n": 0,
+      "N": 104,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_question",
+      "code": "l_narr",
+      "n": 0,
+      "N": 104,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "l_auth",
+      "n": 13,
+      "N": 177,
+      "unknown": 0,
+      "pct": 7.344632768361582
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "l_rat",
+      "n": 75,
+      "N": 177,
+      "unknown": 0,
+      "pct": 42.3728813559322
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "l_moral",
+      "n": 1,
+      "N": 177,
+      "unknown": 0,
+      "pct": 0.5649717514124294
+    },
+    {
+      "group": "tabiturient_answer",
+      "code": "l_narr",
+      "n": 16,
+      "N": 177,
+      "unknown": 0,
+      "pct": 9.03954802259887
+    }
+  ],
+  "v2": [
+    {
+      "question_type": "mixed",
+      "code": "alternative",
+      "n": 65,
+      "N": 91,
+      "unknown": 0,
+      "pct": 71.42857142857143
+    },
+    {
+      "question_type": "mixed",
+      "code": "m_cool",
+      "n": 0,
+      "N": 91,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "question_type": "mixed",
+      "code": "m_warm",
+      "n": 27,
+      "N": 91,
+      "unknown": 0,
+      "pct": 29.67032967032967
+    },
+    {
+      "question_type": "mixed",
+      "code": "m_route",
+      "n": 20,
+      "N": 91,
+      "unknown": 0,
+      "pct": 21.978021978021978
+    },
+    {
+      "question_type": "mixed",
+      "code": "m_info",
+      "n": 52,
+      "N": 91,
+      "unknown": 0,
+      "pct": 57.142857142857146
+    },
+    {
+      "question_type": "procedure",
+      "code": "alternative",
+      "n": 60,
+      "N": 111,
+      "unknown": 0,
+      "pct": 54.054054054054056
+    },
+    {
+      "question_type": "procedure",
+      "code": "m_cool",
+      "n": 0,
+      "N": 111,
+      "unknown": 0,
+      "pct": 0.0
+    },
+    {
+      "question_type": "procedure",
+      "code": "m_warm",
+      "n": 27,
+      "N": 111,
+      "unknown": 0,
+      "pct": 24.324324324324323
+    },
+    {
+      "question_type": "procedure",
+      "code": "m_route",
+      "n": 12,
+      "N": 111,
+      "unknown": 0,
+      "pct": 10.81081081081081
+    },
+    {
+      "question_type": "procedure",
+      "code": "m_info",
+      "n": 83,
+      "N": 111,
+      "unknown": 0,
+      "pct": 74.77477477477477
+    }
+  ],
+  "goal_relation": {
+    "same": 112,
+    "na": 86,
+    "unknown": 4
+  },
+  "parent_education": {
+    "unknown": 772,
+    "yes": 1
+  },
+  "devaluation_n": 9,
+  "devaluation_bases": {
+    "work": 8,
+    "income": 3,
+    "skills": 6,
+    "inflation": 3,
+    "quality": 4,
+    "cost": 0,
+    "status": 7,
+    "other": 0
+  },
+  "cool_ids": [],
+  "route_ids": [
+    "TG0008",
+    "TG0018",
+    "TG0051",
+    "TG0059",
+    "TG0070",
+    "TG0097",
+    "TG0099",
+    "TG0150",
+    "TG0168",
+    "TG0180",
+    "TG0189",
+    "TG0228",
+    "TG0250",
+    "TG0268",
+    "PK0077",
+    "PK0078",
+    "PK0092",
+    "PK0094",
+    "PK0099",
+    "PK0134",
+    "PK0142",
+    "PK0144",
+    "PK0175",
+    "PK0180",
+    "PK0181",
+    "PK0187",
+    "PK0210",
+    "PK0212",
+    "PK0224",
+    "PK0243",
+    "PK0325",
+    "TB0006",
+    "TB0007",
+    "TB0014",
+    "TB0015",
+    "TB0033",
+    "TB0041",
+    "TB0042",
+    "TB0043",
+    "TB0052",
+    "TB0053",
+    "TB0057",
+    "TB0058",
+    "TB0064",
+    "TB0073",
+    "TB0078",
+    "TB0085",
+    "TB0087",
+    "TB0098",
+    "TB0101",
+    "TB0106",
+    "TB0121",
+    "TB0142",
+    "TB0144",
+    "TB0152",
+    "TB0153",
+    "TB0185",
+    "TB0193",
+    "TB0206",
+    "TB0209",
+    "TB0213",
+    "TB0215",
+    "TB0231",
+    "TB0240",
+    "TB0242",
+    "TB0250",
+    "TB0251",
+    "TB0273",
+    "TB0284",
+    "TB0291",
+    "TB0292",
+    "TB0293",
+    "TB0294",
+    "TB0299",
+    "TB0303",
+    "TB0319",
+    "TB0325",
+    "TB0326",
+    "TB0327",
+    "TB0330",
+    "TB0331",
+    "TB0332",
+    "TB0334"
+  ],
+  "warm_ids": [
+    "TG0008",
+    "TG0018",
+    "TG0049",
+    "TG0051",
+    "TG0058",
+    "TG0059",
+    "TG0076",
+    "TG0087",
+    "TG0088",
+    "TG0092",
+    "TG0096",
+    "TG0097",
+    "TG0098",
+    "TG0099",
+    "TG0150",
+    "TG0153",
+    "TG0159",
+    "TG0168",
+    "TG0172",
+    "TG0180",
+    "TG0185",
+    "TG0218",
+    "TG0243",
+    "TG0248",
+    "TG0250",
+    "PK0028",
+    "PK0063",
+    "PK0085",
+    "PK0117",
+    "PK0119",
+    "PK0144",
+    "PK0153",
+    "PK0170",
+    "PK0206",
+    "PK0231",
+    "PK0243",
+    "PK0267",
+    "PK0269",
+    "PK0276",
+    "PK0284",
+    "PK0310",
+    "PK0311",
+    "TB0013",
+    "TB0015",
+    "TB0016",
+    "TB0024",
+    "TB0029",
+    "TB0034",
+    "TB0064",
+    "TB0066",
+    "TB0067",
+    "TB0076",
+    "TB0081",
+    "TB0083",
+    "TB0085",
+    "TB0091",
+    "TB0108",
+    "TB0115",
+    "TB0116",
+    "TB0121",
+    "TB0122",
+    "TB0123",
+    "TB0128",
+    "TB0137",
+    "TB0138",
+    "TB0139",
+    "TB0142",
+    "TB0148",
+    "TB0168",
+    "TB0169",
+    "TB0175",
+    "TB0176",
+    "TB0182",
+    "TB0185",
+    "TB0188",
+    "TB0196",
+    "TB0198",
+    "TB0199",
+    "TB0203",
+    "TB0219",
+    "TB0241",
+    "TB0264",
+    "TB0268",
+    "TB0271",
+    "TB0283",
+    "TB0288",
+    "TB0295",
+    "TB0301",
+    "TB0304",
+    "TB0311",
+    "TB0312",
+    "TB0313",
+    "TB0318",
+    "TB0319",
+    "TB0332",
+    "TB0333"
+  ],
+  "family_ids": [
+    "TG0286",
+    "TG0402",
+    "PK0001",
+    "PK0002",
+    "PK0004",
+    "PK0009",
+    "PK0013",
+    "PK0031",
+    "PK0044",
+    "PK0056",
+    "PK0065",
+    "PK0076",
+    "PK0093",
+    "PK0099",
+    "PK0107",
+    "PK0119",
+    "PK0134",
+    "PK0143",
+    "PK0161",
+    "PK0165",
+    "PK0181",
+    "PK0192",
+    "PK0193",
+    "PK0224",
+    "PK0225",
+    "PK0254",
+    "PK0263",
+    "PK0271",
+    "PK0275",
+    "PK0337",
+    "PK0338"
+  ],
+  "deval_ids": [
+    "TG0145",
+    "PK0009",
+    "PK0062",
+    "PK0072",
+    "PK0091",
+    "PK0285",
+    "TB0046",
+    "TB0105",
+    "TB0246"
+  ],
+  "institutional_ids": [
+    "TB0249",
+    "TB0264",
+    "TB0267",
+    "TB0311",
+    "TB0312",
+    "TB0313",
+    "TB0318"
+  ]
+}

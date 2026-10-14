@@ -233,6 +233,13 @@ __marimo__/
 *.session
 *.session-journal
 
+# Local-only source text, identity mappings and dependencies for preprint analysis
+/analysis_preprint_2026-10-15/.deps/
+/analysis_preprint_2026-10-15/private/
+/analysis_preprint_2026-10-15/packets/
+/analysis_preprint_2026-10-15/data/corpus.json
+/analysis_preprint_2026-10-15/audit/blind_*.json
+
 # stage2_selenium: собранные данные и локальная соль псевдонимов
 /stage2_selenium/data/
 /stage2_selenium/.secrets/

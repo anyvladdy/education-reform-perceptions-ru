@@ -1,0 +1,16 @@
+﻿group,code,n,N,unknown,pct
+telegram_post,family,2,208,0,0.9615384615384616
+telegram_post,role_known,0,208,0,0.0
+telegram_post,reading_known,0,208,0,0.0
+pikabu_comment,family,3,100,0,3.0
+pikabu_comment,role_known,16,100,0,16.0
+pikabu_comment,reading_known,78,100,0,78.0
+pikabu_post,family,26,134,0,19.402985074626866
+pikabu_post,role_known,95,134,0,70.8955223880597
+pikabu_post,reading_known,7,134,0,5.223880597014926
+tabiturient_question,family,0,129,0,0.0
+tabiturient_question,role_known,43,129,0,33.333333333333336
+tabiturient_question,reading_known,0,129,0,0.0
+tabiturient_answer,family,0,202,0,0.0
+tabiturient_answer,role_known,17,202,0,8.415841584158416
+tabiturient_answer,reading_known,3,202,0,1.4851485148514851

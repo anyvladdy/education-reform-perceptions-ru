@@ -1,0 +1,16 @@
+{
+  "mode": "public_metadata_only",
+  "primary_records": 1094,
+  "included_records": 773,
+  "secondary_records": 165,
+  "withheld": [
+    "source text",
+    "exact evidence quotations",
+    "per-record rationale and linked-claim text",
+    "original ID and URL mappings",
+    "local dependencies and caches"
+  ],
+  "duplicate_decisions": "Fixed from local text-based analysis; public rerun reuses decisions without reprocessing withheld texts",
+  "source_analysis": "analysis_preprint_2026-10-15",
+  "human_validation_performed": false
+}

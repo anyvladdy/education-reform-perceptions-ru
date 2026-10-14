@@ -1,0 +1,15 @@
+{
+  "expected": 1094,
+  "annotated": 1094,
+  "files": 86,
+  "missing_ids": [],
+  "errors": [],
+  "warnings": [
+    {
+      "issue": "evidence verification unavailable; public text withheld"
+    }
+  ],
+  "human_validation": "not_performed",
+  "status": "complete_raw_annotation",
+  "evidence_verification": "unavailable_public_text_withheld"
+}
