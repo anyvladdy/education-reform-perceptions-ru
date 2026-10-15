@@ -2,7 +2,7 @@
 
 **Сжатая версия статьи** · сборка от 15.10.2026 · полная версия текстов: [FINAL_FULL_TEXT.md](FINAL_FULL_TEXT.md)
 
-> Статья сокращена по итоговым текстам проекта: [LITERATURE_REVIEW.md](LITERATURE_REVIEW.md), [METHODOLOGY.md](METHODOLOGY.md) (версия 2.2) и [DATA_ANALYSIS.md](DATA_ANALYSIS.md) (после авторской перепроверки 15.10.2026). Все числа взяты из этих текстов и таблиц [analysis_preprint_2026-10-15/tables](analysis_preprint_2026-10-15/tables); новых расчётов при сокращении не выполнялось.
+> Статья сокращена по итоговым текстам проекта: [LITERATURE_REVIEW.md](LITERATURE_REVIEW.md), [METHODOLOGY.md](METHODOLOGY.md) (версия 2.2) и [DATA_ANALYSIS.md](DATA_ANALYSIS.md) (после авторской перепроверки 15.10.2026; статья готовилась по полной версии анализа, которая сохранена в истории репозитория до PR #24). Все числа взяты из этих текстов и таблиц [analysis_preprint_2026-10-15/tables](analysis_preprint_2026-10-15/tables); новых расчётов при сокращении не выполнялось.
 
 ## Аннотация
 
